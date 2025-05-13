@@ -1,8 +1,4 @@
-import os                           
-import scipy                        
-import numpy as np                   
-import matplotlib.pyplot as plt      
-from tkinter import filedialog 
+
 
 ###Optional for old method of calcualting Z component
 from scipy.signal import find_peaks
