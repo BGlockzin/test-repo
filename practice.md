@@ -9,10 +9,6 @@ from scipy.signal import find_peaks
 from scipy.interpolate import interp1d
 from scipy.ndimage import uniform_filter1d as smooth
 
-###Define the main function where the program starts execution.
-def main():                                            
-    ###Go to specified directory and select a file
-    paths = filedialog.askopenfilenames(
                     title='Open files',
                     initialdir='C:\\Users\\Brayd\\OneDrive\\1. 300 data\\300 matlab files\\')
 
